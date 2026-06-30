@@ -445,9 +445,7 @@ dd {
   overflow: hidden;
   border-radius: var(--radius-lg);
   border: 1px solid rgba(255, 255, 255, 0.76);
-  background:
-    radial-gradient(circle at 18% 24%, rgba(255, 255, 255, 0.18), transparent 18rem),
-    linear-gradient(135deg, #f8fbff 0%, #e8f1fd 42%, #07101f 100%);
+  background: #07101f;
   box-shadow: var(--shadow-floating);
   isolation: isolate;
 }
@@ -463,9 +461,8 @@ dd {
   inset: 0;
   z-index: 1;
   background:
-    linear-gradient(90deg, rgba(247, 250, 254, 0.9) 0%, rgba(247, 250, 254, 0.68) 36%, rgba(10, 14, 23, 0.04) 67%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.62) 0%, rgba(255, 255, 255, 0) 42%, rgba(10, 14, 23, 0.2) 100%);
-  mix-blend-mode: screen;
+    linear-gradient(90deg, rgba(247, 250, 254, 0.66) 0%, rgba(247, 250, 254, 0.42) 34%, rgba(247, 250, 254, 0.08) 62%, rgba(7, 16, 31, 0.06) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 48%, rgba(7, 16, 31, 0.16) 100%);
 }
 
 .official-panel::after {
@@ -568,14 +565,14 @@ dd {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 54% 50%;
-  opacity: 0.94;
+  object-position: 50% 50%;
+  opacity: 1;
   transform: none;
-  filter: saturate(0.98) contrast(1.02);
+  filter: saturate(1.04) contrast(1.03);
 }
 
 .panel-art--documents {
-  object-position: 50% 52%;
+  object-position: 50% 50%;
 }
 
 .control-strip {
@@ -1151,12 +1148,12 @@ dd {
 
   .official-panel::before {
     background:
-      linear-gradient(180deg, rgba(247, 250, 254, 0.92) 0%, rgba(247, 250, 254, 0.56) 50%, rgba(10, 14, 23, 0.18) 100%),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.04));
+      linear-gradient(180deg, rgba(247, 250, 254, 0.78) 0%, rgba(247, 250, 254, 0.42) 48%, rgba(7, 16, 31, 0.16) 100%),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.04));
   }
 
   .panel-art--documents {
-    object-position: 54% 54%;
+    object-position: 50% 50%;
   }
 
   .status-card {
