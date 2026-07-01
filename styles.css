@@ -839,6 +839,9 @@ dd {
 }
 
 .doc-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: 9px 12px;
   border-radius: 999px;
   background: rgba(226, 27, 27, 0.09);
@@ -846,6 +849,16 @@ dd {
   font-size: 13px;
   font-weight: 900;
   white-space: nowrap;
+}
+
+.info-card .doc-status,
+.fact-list dd .doc-status {
+  margin-top: 14px;
+}
+
+.fact-list dd .doc-status {
+  display: flex;
+  width: fit-content;
 }
 
 .document-group {
