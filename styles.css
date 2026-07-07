@@ -851,6 +851,17 @@ dd {
   white-space: nowrap;
 }
 
+.doc-status--link {
+  background: var(--color-brand-blue);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 8px 18px rgba(30, 99, 233, 0.18);
+}
+
+.doc-status--link:hover {
+  background: var(--color-brand-blue-dark);
+}
+
 .info-card .doc-status,
 .fact-list dd .doc-status {
   margin-top: 14px;
